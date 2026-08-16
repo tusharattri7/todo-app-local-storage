@@ -1,16 +1,43 @@
-# React + Vite
+# 📝 Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Todo application built using **React.js**, **Context API**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+The app allows users to create, edit, delete, and mark todos as completed. Todos are stored in the browser's **Local Storage**, so they remain available even after refreshing the page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- ➕ Add new todos
+- ✏️ Edit existing todos
+- ✅ Mark todos as completed
+- ❌ Delete todos
+- 💾 Persist todos using Local Storage
+- ⚡ State management using React Context API
+- 🎨 Responsive UI using Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **React.js**
+- **JavaScript**
+- **Tailwind CSS**
+- **React Context API**
+- **Local Storage**
+- **Vite**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── TodoForm.jsx
+│   ├── TodoItem.jsx
+│   └── index.js
+│
+├── contexts/
+│   ├── TodoContext.js
+│   └── index.js
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
